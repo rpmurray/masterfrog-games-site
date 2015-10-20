@@ -1,0 +1,9 @@
+.title {
+    font: 80px/1em 'merriweather-bold', serif
+    font-color: rgba(25, 124, 40, 1);
+}
+
+.img-circle {
+    border-radius: 50%;
+    padding: 10px;
+}
