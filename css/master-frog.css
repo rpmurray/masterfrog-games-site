@@ -18,3 +18,13 @@
 .img-circle {
     border-radius: 50%;
 }
+
+footer ul.copyright li {
+    color: #747474;
+}
+footer ul.copyright li a {
+    color: #979797;
+}
+footer ul.copyright li a:hover {
+    color: #FFFFFF;
+}
