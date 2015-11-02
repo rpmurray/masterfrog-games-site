@@ -334,7 +334,7 @@ ul#nav li.current a {
     color: #fff;
     padding-top: 96px;
     padding-bottom: 72px;
-    overflow: hidden;
+/*    overflow: hidden;*/
     position: relative;
 }
 
