@@ -28,8 +28,9 @@ jQuery(document).ready(function($) {
                         title: "Menu",
                         href : "#" }
                         );
-  	var nav_wrap = $('nav#nav-wrap')
+  	var nav_wrap = $('nav#nav-wrap');
   	var nav = $("ul#nav");
+	var background_image = "images/teal-grid-background.jpg";
 
   	/* id JS is enabled, remove the two a.menu-btns
   	and dynamically prepend a.toggle-btn to #nav-wrap */
@@ -56,7 +57,7 @@ jQuery(document).ready(function($) {
 /* Backstretch Settings
 ------------------------------------------------------ */
 
-	$("#intro").backstretch("images/header-background.jpg");
+	$("#intro").backstretch(background_image);
 
 
 /*----------------------------------------------------*/
@@ -223,9 +224,9 @@ jQuery(document).ready(function($) {
    $(window).on('resize', function() {
 
         $('#intro, #map').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
+        $('body').css({ 'width': $(window).width() });
 
-        $("#intro").backstretch("images/header-background.jpg");
+        $("#intro").backstretch(background_image);
    });
 
 

@@ -31,7 +31,7 @@ body {
     padding-bottom: 102px;
     min-height: 900px;
     width: 100%;
-    background: #161415 url(../images/header-background.jpg) no-repeat center center fixed;
+    background: #161415 url(../images/teal-grid-background.jpg) no-repeat center center fixed;
     background-size: cover !important;
     -webkit-background-size: cover !important;
 }
@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-    color: #1E732D;
+    color: #0ffc00/*#1E732D*/;
 }
 
 ul#nav li a:active {
@@ -194,7 +194,7 @@ ul#nav li.current a {
 
 #main h1 {
     font: 42px/1.2em 'montserrat-bold', sans-serif;
-    color: #979797;
+    color: #ffffff/*#979797*/;
     margin-bottom: 18px;
     padding: 0 10%;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
@@ -202,19 +202,19 @@ ul#nav li.current a {
 
 #main p {
     font: 16px/33px 'montserrat-regular', sans-serif;
-    color: #ABABAB;
+    color: #ffffff/*#ABABAB*/;
     margin-bottom: 18px;
     padding: 0 18%;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);
 }
 
 #main h6 {
-    color: #747474;
+    color: #afafaf/*#747474*/;
 }
 
 #main h5 {
     font: 13px/24px 'montserrat-bold', sans-serif;
-    color: #1F782F;
+    color: #FFFFFF/*#1F782F*/;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);
@@ -322,7 +322,7 @@ ul#nav li.current a {
 }
 
 #main .social li a:hover {
-    color: #197C28;
+    color: #0ffc00/*#197C28*/;
 }
 
 /* ------------------------------------------------------------------ */
@@ -330,7 +330,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #1E732D;
+    background: #0f0f0f;/*#1E732D;*/
     color: #fff;
     padding-top: 96px;
     padding-bottom: 72px;
@@ -339,7 +339,7 @@ ul#nav li.current a {
 }
 
 #about a, #about a:visited {
-    color: #0C3012;
+    color: #0FFC00/*#0C3012*/;
 }
 
 #about a:hover, #about a:focus {
@@ -359,7 +359,7 @@ ul#nav li.current a {
 #about .section-header .icon-wrap {
     font-size: 60px;
     margin-bottom: 18px;
-    color: #0F3C17;
+    color: #0FFC00/*#0F3C17*/;
 }
 
 #about .section-header h1 {
@@ -376,7 +376,7 @@ ul#nav li.current a {
 
 #about h3 {
     font: 15px/24px 'montserrat-bold', sans-serif;
-    color: #0C3012;
+    color: #0FFC00/*#0C3012*/;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 12px;
@@ -415,7 +415,7 @@ ul#nav li.current a {
 
 .call-to-action span {
     font-family: 'merriweather-regular', serif;
-    color: #0C3012;
+    color: #0FFC00/*#0C3012*/;
 }
 
 .call-to-action .action a.button {
@@ -424,7 +424,7 @@ ul#nav li.current a {
 }
 
 .call-to-action .button {
-    background: #165622;
+    background: #3d3d3d/*#165622*/;
     color: #fff !important;
 }
 
@@ -459,7 +459,7 @@ ul#nav li.current a {
 
 #location .contacts h3 {
     font: 14px/24px 'montserrat-bold', sans-serif;
-    color: #fff;
+    color: #0FFC00/*#fff*/;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 6px;
@@ -469,7 +469,7 @@ ul#nav li.current a {
     line-height: 30px;
     font-family: 'montserrat-regular', sans-serif;
     font-size: 14px;
-    color: #6C6C6C;
+    color: #ffffff/*#6C6C6C*/;
 }
 
 #location .contacts h3 i {
@@ -579,6 +579,6 @@ footer .copyright li:first-child:before {
 }
 
 #go-top a:hover {
-    background: #165622;
+    background: #0ffc00/*#165622*/;
 }
 
